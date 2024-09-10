@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 require('dotenv').config()
 
 const express = require('express');
@@ -67,5 +66,3 @@ app.all('*',(req,res)=>{
 app.listen(port,()=>{
     console.log('Listening on port 7001');
 });
-
->>>>>>> 4361934 (first commit : initial version create for CS50)
